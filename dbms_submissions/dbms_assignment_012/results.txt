@@ -1,0 +1,22 @@
+Tests ran at 22 May 04 49 PM
+
+14 tests passed out of 14 tests.
+
+test_19b3c284-17b7-41d4-9cfd-706b76c925f8_db012.py::test_get_method_given_student_id_return_student_object: passed
+test_19b3c284-17b7-41d4-9cfd-706b76c925f8_db012.py::test_get_method_given_age_return_student_object: passed
+test_19b3c284-17b7-41d4-9cfd-706b76c925f8_db012.py::test_get_method_given_score_return_student_object: passed
+test_19b3c284-17b7-41d4-9cfd-706b76c925f8_db012.py::test_get_method_given_name_return_student_object: passed
+test_19b3c284-17b7-41d4-9cfd-706b76c925f8_db012.py::test_get_method_given_age_when_multiple_objects_matched_raise_exception: passed
+test_19b3c284-17b7-41d4-9cfd-706b76c925f8_db012.py::test_get_method_given_invalid_student_id_raise_exception: passed
+test_19b3c284-17b7-41d4-9cfd-706b76c925f8_db012.py::test_get_method_given_invalid_age_raise_exception: passed
+test_19b3c284-17b7-41d4-9cfd-706b76c925f8_db012.py::test_get_method_given_invalid_score_raise_exception: passed
+test_19b3c284-17b7-41d4-9cfd-706b76c925f8_db012.py::test_get_method_given_invalid_name_raise_exception: passed
+test_19b3c284-17b7-41d4-9cfd-706b76c925f8_db012.py::test_get_method_given_invalid_column_field_raise_exception: passed
+test_19b3c284-17b7-41d4-9cfd-706b76c925f8_db012.py::test_delete_method_given_valid_student_id_deletes_record: passed
+test_19b3c284-17b7-41d4-9cfd-706b76c925f8_db012.py::test_save_method_given_record_does_not_present_in_db_then_create_record: passed
+test_19b3c284-17b7-41d4-9cfd-706b76c925f8_db012.py::test_save_method_given_record_present_in_db_then_update_record: passed
+test_19b3c284-17b7-41d4-9cfd-706b76c925f8_db012.py::test_save_method_given_updated_student_id_not_present_in_db_then_create_new_record: passed
+
+
+Errors: 0 errors
+

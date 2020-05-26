@@ -1,0 +1,22 @@
+Tests ran at 28 Apr 09 23 PM
+
+14 tests passed out of 14 tests.
+
+test_0f42943c-9c2b-4741-9751-3b046c2ff848_db001.py::test_user_table_creation_whether_columns_exists: passed
+test_0f42943c-9c2b-4741-9751-3b046c2ff848_db001.py::test_user_table_raises_error_when_first_name_is_null: passed
+test_0f42943c-9c2b-4741-9751-3b046c2ff848_db001.py::test_user_table_raises_error_when_last_name_is_null: passed
+test_0f42943c-9c2b-4741-9751-3b046c2ff848_db001.py::test_user_table_raises_error_when_phone_number_is_null: passed
+test_0f42943c-9c2b-4741-9751-3b046c2ff848_db001.py::test_post_table_creation: passed
+test_0f42943c-9c2b-4741-9751-3b046c2ff848_db001.py::test_post_table_for_auto_increment: passed
+test_0f42943c-9c2b-4741-9751-3b046c2ff848_db001.py::test_user_creation_q3: passed
+test_0f42943c-9c2b-4741-9751-3b046c2ff848_db001.py::test_user_creation_q4: passed
+test_0f42943c-9c2b-4741-9751-3b046c2ff848_db001.py::test_post_creation_q5: passed
+test_0f42943c-9c2b-4741-9751-3b046c2ff848_db001.py::test_get_all_coulmns_user_table: passed
+test_0f42943c-9c2b-4741-9751-3b046c2ff848_db001.py::test_get_first_and_last_coulmns_user_table: passed
+test_0f42943c-9c2b-4741-9751-3b046c2ff848_db001.py::test_update_tony_name: passed
+test_0f42943c-9c2b-4741-9751-3b046c2ff848_db001.py::test_delete_john_wick: passed
+test_0f42943c-9c2b-4741-9751-3b046c2ff848_db001.py::test_delete_post_table: passed
+
+
+Errors: 0 errors
+
