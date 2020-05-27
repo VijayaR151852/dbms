@@ -19,8 +19,10 @@ class Student:
         
     @classmethod
     def filter(cls,**kwargs):
+        #print(*cls().__dict__.keys())
         fields=[*cls().__dict__.keys()]
-        query_att=[]
+        #print(fields)
+        '''query_att=[]
         dic={"gt":">","lt":"<","lte":"<=","gte":">=","neq":"<>"}
         for key,value in kwargs.items():
             if("__" in key):
@@ -46,7 +48,7 @@ class Student:
         
     @classmethod
     def aggregate(cls,aggregation,field=None,**kwargs):
-        fields=[*cls().__dict__.keys()]
+        fields=["name","student_id","age","score"]
         if(len(kwargs)>=1):
             query_att_string=cls.filter(**kwargs)
             multiple_sql_query="select {}({}) from student where {}".format(aggregation,field,query_att_string)
@@ -84,7 +86,6 @@ class Student:
     @classmethod
     def count(cls, field=None, **kwargs):
         ans=cls.aggregate("count",field,**kwargs)
-        return ans
-
-#s=Student.avg('age',age__lt=20)
-    
+        return ans'''
+        
+Student.filter(age=20)
